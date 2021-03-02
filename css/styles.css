@@ -2,11 +2,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
-
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5em;
@@ -25,10 +20,6 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
-}
-
-.container-fluid {
-  padding: 3% 15%;
 }
 
 /* navigation var */
@@ -52,24 +43,37 @@ h3 {
   font-weight: light;
 }
 
+/* title */
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
 /* download button */
 
 .download-btn {
-  margin: 5% 5% 0 0;
+  margin: 5% 5% 5% 0;
 }
 
 /* title image */
 
 .title-img {
-  width: 70%;
+  width: 60%;
   transform: rotate(25deg);
-  padding: 2rem 0 2rem 5rem;
+  position: absolute;
+  right: 30%;
 }
 
 /* features */
 
 #features {
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 
 .features-chunk {
@@ -128,4 +132,41 @@ h3 {
 .pricing-column {
   padding: 3% 2%;
   text-align: center;
+}
+
+/* Call to Action */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+}
+
+.cta-download-btn {
+  margin: 30px 30px 0 0;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 4% 15%;
+}
+
+.footer-link {
+  margin: 20px 10px;
+}
+
+/* for tablet and mobile */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
 }
