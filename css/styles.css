@@ -1,25 +1,38 @@
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+/* headong */
+
+.big-heading {
   font-size: 3.5em;
   font-weight: 900;
   line-height: 1.5;
 }
 
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+.section-heading {
   font-size: 3rem;
   line-height: 1.5;
-}
-
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
 }
 
 /* navigation var */
@@ -30,7 +43,7 @@ h3 {
 
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2.5rem;
 }
 
@@ -44,12 +57,20 @@ h3 {
 }
 
 /* title */
+
+/* conteiners */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
 #title {
   background-color: #ff4c68;
   color: white;
+  text-align: left;
 }
 
-.container-fluid {
+#title .container-fluid {
   padding: 3% 15% 7%;
 }
 
@@ -71,14 +92,15 @@ h3 {
 /* features */
 
 #features {
-  padding: 7% 15%;
   background-color: white;
   position: relative;
 }
 
+.features-title {
+  font-size: 1.5rem;
+}
+
 .features-chunk {
-  text-align: center;
-  padding: 5%;
 }
 
 .features-icon {
@@ -99,12 +121,12 @@ h3 {
 
 #testimonials {
   background-color: #ef8172;
-  text-align: center;
   color: white;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-img {
@@ -114,7 +136,6 @@ h3 {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -129,18 +150,25 @@ h3 {
   padding: 5%;
 }
 
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .pricing-column {
   padding: 3% 2%;
-  text-align: center;
 }
 
 /* Call to Action */
 
 #cta {
-  text-align: center;
   background-color: #ff4c68;
   color: white;
-  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
 }
 
 .cta-download-btn {
@@ -150,7 +178,6 @@ h3 {
 /* footer */
 
 #footer {
-  text-align: center;
   padding: 4% 15%;
 }
 
