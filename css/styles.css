@@ -188,7 +188,7 @@ h3 {
 /* for tablet and mobile */
 
 @media (max-width: 1200px) {
-  #title {
+  #title .container-fluid {
     text-align: center;
   }
 
