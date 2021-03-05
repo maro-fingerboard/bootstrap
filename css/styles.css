@@ -56,22 +56,28 @@ h3 {
   font-weight: light;
 }
 
-/* title */
-
 /* conteiners */
 
 .container-fluid {
   padding: 7% 15%;
 }
 
-#title {
+/* section */
+
+.colored-section {
   background-color: #ff4c68;
   color: white;
-  text-align: left;
 }
+
+.white-section {
+  background-color: white;
+}
+
+/* title */
 
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* download button */
@@ -92,7 +98,6 @@ h3 {
 /* features */
 
 #features {
-  background-color: white;
   position: relative;
 }
 
@@ -160,11 +165,6 @@ h3 {
 }
 
 /* Call to Action */
-
-#cta {
-  background-color: #ff4c68;
-  color: white;
-}
 
 .cta-heading {
   font-size: 3.5rem;
